@@ -15,7 +15,7 @@ function App() {
     console.log(todo)
         return(
             <TodoItem
-                 key = {todo.key}
+                 key = {todo.id}
                  text = {todo.text}
                  completed = {todo.completed}
                   />)
